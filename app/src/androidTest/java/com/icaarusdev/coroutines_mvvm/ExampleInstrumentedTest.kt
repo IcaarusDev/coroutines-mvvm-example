@@ -1,4 +1,4 @@
-package com.icaarusdev.coroutinesandroom
+package com.icaarusdev.coroutines_mvvm
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

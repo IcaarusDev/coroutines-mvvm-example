@@ -1,14 +1,13 @@
-package com.icaarusdev.coroutinesandroom.view
+package com.icaarusdev.coroutines_mvvm.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.icaarusdev.coroutinesandroom.databinding.ActivityMainBinding
-import com.icaarusdev.coroutinesandroom.model.CountriesAdapter
-import com.icaarusdev.coroutinesandroom.viewmodel.MainViewModel
+import com.icaarusdev.coroutines_mvvm.model.CountriesAdapter
+import com.icaarusdev.coroutines_mvvm.viewmodel.MainViewModel
+import com.icaarusdev.coroutines_mvvm.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

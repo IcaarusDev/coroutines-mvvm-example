@@ -1,9 +1,9 @@
-package com.icaarusdev.coroutinesandroom.viewmodel
+package com.icaarusdev.coroutines_mvvm.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.icaarusdev.coroutinesandroom.model.CallApi
-import com.icaarusdev.coroutinesandroom.model.Country
+import com.icaarusdev.coroutines_mvvm.model.CallApi
+import com.icaarusdev.coroutines_mvvm.model.Country
 import kotlinx.coroutines.*
 
 class MainViewModel: ViewModel() {

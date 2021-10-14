@@ -1,14 +1,12 @@
-package com.icaarusdev.coroutinesandroom.model
+package com.icaarusdev.coroutines_mvvm.model
 
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.icaarusdev.coroutinesandroom.R
-import com.icaarusdev.coroutinesandroom.databinding.ItemCountryBinding
+import com.icaarusdev.coroutines_mvvm.databinding.ItemCountryBinding
 
 
 class CountriesAdapter :
@@ -34,7 +32,7 @@ class CountriesAdapter :
 
             Glide.with(binding.root.context)
                 .load(item.flagPNG)
-                .centerCrop()
+                .fitCenter()
                 .into(binding.imageView)
         }
     }

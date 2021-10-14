@@ -1,4 +1,4 @@
-package com.icaarusdev.coroutinesandroom.model
+package com.icaarusdev.coroutines_mvvm.model
 
 import com.google.gson.annotations.SerializedName
 

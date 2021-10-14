@@ -1,6 +1,5 @@
-package com.icaarusdev.coroutinesandroom.model
+package com.icaarusdev.coroutines_mvvm.model
 
-import androidx.lifecycle.MutableLiveData
 import retrofit2.Response
 import retrofit2.http.GET
 

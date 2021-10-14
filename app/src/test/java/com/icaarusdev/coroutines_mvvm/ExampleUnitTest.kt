@@ -1,4 +1,4 @@
-package com.icaarusdev.coroutinesandroom
+package com.icaarusdev.coroutines_mvvm
 
 import org.junit.Test
 
